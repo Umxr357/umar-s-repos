@@ -10,4 +10,4 @@ int main() {
     float area = (PI * rad * rad);
     cout<<"Area of the circle = "<<area<<endl;
     return 0;
-// }
+ }
