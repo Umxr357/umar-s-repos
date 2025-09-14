@@ -1,33 +1,18 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 int main(){
-    float Eng;
+    float eng;
+    float maths;
+    float sci;
 
-    float Math;
+    cout<<"put eng marks:";
+    cin>>eng;
+    cout<<"put maths marks:";
+    cin>>maths;
+    cout<<"put sci marks:";
+    cin>>sci;
 
-    float Phy;
-
-    float chem;
-
-
-    cout <<"Enter English marks = ";
-    cin>>Eng;
-
-
-    cout <<"Enter Maths marks = ";
-    cin>>Math;
-
-
-    cout <<"Enter Physics marks = ";
-    cin>>Phy;
-
-
-    cout <<"Enter Chemistry marks = ";
-    cin>>chem;
-
-    float avg = (Eng+Math+Phy+chem)/4;
-
-    cout<<"Avg marks = "<<avg<<endl;
-
+    float avg = (eng+maths+sci)/3;
+    cout<<"avg is"<<avg;
     return 0;
 }
