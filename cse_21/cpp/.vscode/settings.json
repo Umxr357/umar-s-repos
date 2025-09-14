@@ -1,0 +1,4 @@
+{
+    "debug.console.closeOnEnd": true,
+    "workbench.editor.closeOnFileDelete": false
+}

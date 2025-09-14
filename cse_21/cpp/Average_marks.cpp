@@ -13,6 +13,6 @@ int main(){
     cin>>sci;
 
     float avg = (eng+maths+sci)/3;
-    cout<<"avg is"<<avg;
+    cout<<"avg is:  "<<avg;
     return 0;
 }
