@@ -1,4 +1,7 @@
 {
     "debug.console.closeOnEnd": true,
-    "workbench.editor.closeOnFileDelete": false
+    "workbench.editor.closeOnFileDelete": false,
+    "files.associations": {
+        "iostream": "cpp"
+    }
 }
