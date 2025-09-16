@@ -115,3 +115,77 @@
 //     }
 //     return 0;
 // }
+
+
+
+//prime no between 1 to n
+
+
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int n;
+
+
+
+//print the square pattern using for loop
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int n = 5;
+//     for(int i= 1;i<=n;i++){
+//         cout<<" **** "<<endl;
+//     }
+//     return 0;
+// }
+
+
+//sum of digits of a number using while loop
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int n,sum=0;
+//     cout<<"Enter a no : " ;
+//     cin>>n;
+//     while(n>0){
+//         int last_dig= n%10;
+//         digsum=
+//         n = n/10;
+//     }
+//     cout<< endl;
+//     return 0;
+// }
+
+
+
+//WAP where user can keep entering number till they enter a multiple of 10 using break statement
+
+#include<iostream>
+using namespace std;
+int main(){
+    int n,i=2,composite=0;
+    cout<<"Enter a no.";
+    cin>>n;
+    if(n<=1){
+        cout<<"not a prime no.";
+    }
+    else{
+    while(i<=n/2){
+        if(n%i==0){
+            composite=1;
+            break;
+        }
+        i++;
+    }
+    if(composite==1){
+        cout<<"Not Prime";
+    }
+    else if(composite==0){
+        cout<<"Prime";
+    }
+}
+return 0;
+}
