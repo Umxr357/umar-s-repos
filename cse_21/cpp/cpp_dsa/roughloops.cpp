@@ -1,4 +1,4 @@
-//print no from 0 to 50
+// print no from 0 to 50
 
 
 // #include <iostream>
@@ -161,31 +161,144 @@
 
 
 
-//WAP where user can keep entering number till they enter a multiple of 10 using break statement
+//continue statement
 
-#include<iostream>
-using namespace std;
-int main(){
-    int n,i=2,composite=0;
-    cout<<"Enter a no.";
-    cin>>n;
-    if(n<=1){
-        cout<<"not a prime no.";
-    }
-    else{
-    while(i<=n/2){
-        if(n%i==0){
-            composite=1;
-            break;
-        }
-        i++;
-    }
-    if(composite==1){
-        cout<<"Not Prime";
-    }
-    else if(composite==0){
-        cout<<"Prime";
-    }
-}
-return 0;
-}
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+    
+//     for(int i = 1 ; i<=10 ; i++ ){
+//         if (i == 3){
+//             continue;
+//         }
+//         cout<<i<<endl;
+//     }
+// }
+
+//sum of digits of a 4 digit no
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int a,b,c,n,sum;
+//     cout<<"Enter a number = ";
+//     cin>>n;
+
+//     a=n%10;
+//     n=n/10;
+
+//     b=n%10;
+//     n=n/10;
+
+//     c=n%10;
+//     n=n/10;
+
+//     sum=a+b+c+n;
+
+//     cout<<"Sum = "<<sum;
+//     return 0;
+//}
+
+//reverse of a given 3 digit num
+
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int n,a,b,c,rev;
+//     cout<<"Enter a four digit number = ";
+//     cin>>n;
+
+//     a=n%10;
+//     n=n/10;
+//     b=n%10;
+//     n=n/10;
+//     c=n%10;
+//     n=n/10;
+    
+//     rev=a*1000+b*100+c*10+n;
+//     cout<<rev;
+//     return 0;
+
+// }
+
+//palindromic number or not#important to understand(reverse concept+sum of digits no.)
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int n,a,b,c,rev,m;
+//     cout<<"Enter a four digit number = ";
+//      cin>>n;
+//      m=n;
+//      a=n%10;
+//      n=n/10;
+//      b=n%10;
+//      n=n/10;
+//      c=n%10;
+//      n=n/10;
+    
+//      rev=a*1000+b*100+c*10+n;
+//      (m==rev)?cout<<"Palindrome no ":cout<<"not a palindrome no.";//((a==n)&&(b==c))?cout<<"palindrome no.":cout<<"not a palindrome no.";
+
+//      cout<<rev;
+//      return 0;
+
+// }
+
+
+//armstrong no.
+
+// #include<cmath>
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int a,b,c,n,am,m;
+//     cout<<"Enter an armstrong no.";
+//     cin>>n;
+
+//     m=n;
+//     a=n%10;
+//     n=n/10;
+//     b=n%10;
+//     n=n/10;
+//     c=n%10;
+//     n=n/10;
+
+//     am=pow(a,4)+pow(b,4)+pow(c,4)+pow(n,4);
+
+//     (m==am)?cout<<"Armstrong no.":cout<<"not an armstrong no.";
+//     return 0;
+
+// }
+
+
+//nested conditional expression(greatest among 3)
+// #include<iostream>
+// using namespace std;
+//  int main(){
+//     int a,b,c;
+//     cout<<"enter a ";
+//     cin>>a;
+//     cout<<"enter b ";
+//     cin>>b;
+//     cout<<"enter c ";
+//     cin>>c;
+
+//     (a>b)?((a>c)?cout<<"A largest":cout<<"C largest"):(b>c)?cout<<"B largest":cout<<"C largest";
+//     return 0;
+//  }
+
+
+//leap year condition
+// #include<iostream>
+// using namespace std;
+// int main (){
+//     int n;
+//     cout<<"Enter a year ";
+//     cin>>n;
+
+//    //((n%400)||(n%4==0)&&(n%100!=0))
+//    (n%100==0)?((n%400==0)?cout<<"leap year":cout<<"not a leap year"):((n%4==0)?cout<<"leap year":cout<<"not a leap year");
+//    return 0;
+// }
